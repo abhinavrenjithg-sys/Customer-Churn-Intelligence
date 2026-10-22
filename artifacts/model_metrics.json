@@ -1,0 +1,125 @@
+{
+  "selected_model": "RandomForest",
+  "tuning_info": {
+    "best_params": {
+      "classifier__max_depth": 8,
+      "classifier__min_samples_split": 10,
+      "classifier__n_estimators": 200
+    },
+    "best_cv_roc_auc": 0.8471
+  },
+  "cross_validation_results": [
+    {
+      "model": "RandomForest",
+      "test_roc_auc_mean": 0.8468,
+      "test_roc_auc_std": 0.0101,
+      "test_pr_auc_mean": 0.6593,
+      "test_pr_auc_std": 0.0181,
+      "test_f1_mean": 0.6338,
+      "test_f1_std": 0.0147,
+      "test_precision_mean": 0.5279,
+      "test_precision_std": 0.0153,
+      "test_recall_mean": 0.7933,
+      "test_recall_std": 0.0235
+    },
+    {
+      "model": "LogisticRegression",
+      "test_roc_auc_mean": 0.846,
+      "test_roc_auc_std": 0.0124,
+      "test_pr_auc_mean": 0.6601,
+      "test_pr_auc_std": 0.0196,
+      "test_f1_mean": 0.6282,
+      "test_f1_std": 0.0231,
+      "test_precision_mean": 0.5169,
+      "test_precision_std": 0.0187,
+      "test_recall_mean": 0.8013,
+      "test_recall_std": 0.0379
+    },
+    {
+      "model": "SVC",
+      "test_roc_auc_mean": 0.8267,
+      "test_roc_auc_std": 0.0096,
+      "test_pr_auc_mean": 0.6065,
+      "test_pr_auc_std": 0.0257,
+      "test_f1_mean": 0.6236,
+      "test_f1_std": 0.0194,
+      "test_precision_mean": 0.5197,
+      "test_precision_std": 0.0127,
+      "test_recall_mean": 0.7799,
+      "test_recall_std": 0.0373
+    },
+    {
+      "model": "DummyBaseline",
+      "test_roc_auc_mean": 0.5,
+      "test_roc_auc_std": 0.0,
+      "test_pr_auc_mean": 0.2654,
+      "test_pr_auc_std": 0.0001,
+      "test_f1_mean": 0.0,
+      "test_f1_std": 0.0,
+      "test_precision_mean": 0.0,
+      "test_precision_std": 0.0,
+      "test_recall_mean": 0.0,
+      "test_recall_std": 0.0
+    }
+  ],
+  "test_metrics": {
+    "threshold": 0.5,
+    "roc_auc": 0.8432,
+    "pr_auc": 0.6533,
+    "recall": 0.7941,
+    "precision": 0.5238,
+    "f1": 0.6312,
+    "brier_score": 0.1625,
+    "confusion_matrix": {
+      "true_negatives": 765,
+      "false_positives": 270,
+      "false_negatives": 77,
+      "true_positives": 297
+    },
+    "classification_report": {
+      "Retained (0)": {
+        "precision": 0.9085510688836105,
+        "recall": 0.7391304347826086,
+        "f1-score": 0.8151305274374001,
+        "support": 1035.0
+      },
+      "Churn (1)": {
+        "precision": 0.5238095238095238,
+        "recall": 0.7941176470588235,
+        "f1-score": 0.6312433581296493,
+        "support": 374.0
+      },
+      "accuracy": 0.7537260468417317,
+      "macro avg": {
+        "precision": 0.7161802963465671,
+        "recall": 0.7666240409207161,
+        "f1-score": 0.7231869427835247,
+        "support": 1409.0
+      },
+      "weighted avg": {
+        "precision": 0.8064266275367628,
+        "recall": 0.7537260468417317,
+        "f1-score": 0.7663201645409496,
+        "support": 1409.0
+      }
+    }
+  },
+  "train_samples": 5634,
+  "test_samples": 1409,
+  "test_churn_rate": 0.2654,
+  "artifacts": {
+    "model_pipeline": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\artifacts\\best_model_pipeline.joblib",
+    "feature_config": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\artifacts\\feature_config.json",
+    "cv_results": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\artifacts\\cv_results.csv",
+    "threshold_analysis": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\artifacts\\threshold_analysis.csv",
+    "feature_importance": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\artifacts\\feature_importance.csv"
+  },
+  "figures": {
+    "model_comparison": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\model_comparison.png",
+    "confusion_matrix": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\confusion_matrix.png",
+    "roc_curve": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\roc_curve.png",
+    "precision_recall_curve": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\precision_recall_curve.png",
+    "threshold_analysis": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\threshold_analysis.png",
+    "feature_importance": "C:\\Users\\Lenovo\\Documents\\Customer Churn Prediction\\reports\\figures\\feature_importance.png"
+  }
+}

@@ -1,0 +1,47 @@
+feature,importance,direction
+Contract_Month-to-month,0.1411985588804002,Non-linear association
+tenure,0.12742969688537864,Non-linear association
+TotalCharges,0.08540456475398484,Non-linear association
+Contract_Two year,0.0800626446290509,Non-linear association
+OnlineSecurity_No,0.059419200437359605,Non-linear association
+MonthlyCharges,0.05617822511725779,Non-linear association
+TechSupport_No,0.05253396731595441,Non-linear association
+InternetService_Fiber optic,0.050177152211930406,Non-linear association
+PaymentMethod_Electronic check,0.03994523703700615,Non-linear association
+Contract_One year,0.024031316949138074,Non-linear association
+InternetService_DSL,0.020553482951129954,Non-linear association
+OnlineBackup_No,0.02000105186456433,Non-linear association
+OnlineSecurity_Yes,0.01880056674662619,Non-linear association
+StreamingTV_No internet service,0.013513677485350553,Non-linear association
+TechSupport_No internet service,0.01289791585257687,Non-linear association
+DeviceProtection_No,0.012570023258708367,Non-linear association
+DeviceProtection_No internet service,0.012138130315814545,Non-linear association
+TechSupport_Yes,0.011779481581274134,Non-linear association
+StreamingMovies_No internet service,0.011003858560899717,Non-linear association
+PaperlessBilling_No,0.01080846201627864,Non-linear association
+PaperlessBilling_Yes,0.009044066718984431,Non-linear association
+OnlineBackup_No internet service,0.009037107177230658,Non-linear association
+InternetService_No,0.008752859856493862,Non-linear association
+OnlineSecurity_No internet service,0.007447322509944747,Non-linear association
+OnlineBackup_Yes,0.006342896092161544,Non-linear association
+Dependents_No,0.0062746344152351365,Non-linear association
+StreamingMovies_Yes,0.006121486166707392,Non-linear association
+PaymentMethod_Credit card (automatic),0.005749692777150118,Non-linear association
+PaymentMethod_Bank transfer (automatic),0.005746361009106959,Non-linear association
+Partner_No,0.005647440538482191,Non-linear association
+MultipleLines_Yes,0.005589598346951874,Non-linear association
+Partner_Yes,0.005437989276236291,Non-linear association
+StreamingTV_Yes,0.005244781648791627,Non-linear association
+StreamingMovies_No,0.005108035698869057,Non-linear association
+StreamingTV_No,0.005084716073534347,Non-linear association
+Dependents_Yes,0.0049672295535304655,Non-linear association
+gender_Male,0.004947832548683614,Non-linear association
+SeniorCitizen_1,0.004644308567628257,Non-linear association
+gender_Female,0.00447350888430587,Non-linear association
+SeniorCitizen_0,0.004450279128030651,Non-linear association
+MultipleLines_No,0.004425578432742284,Non-linear association
+PaymentMethod_Mailed check,0.00430094569763251,Non-linear association
+DeviceProtection_Yes,0.0034616109530884744,Non-linear association
+PhoneService_Yes,0.0025761706969442077,Non-linear association
+PhoneService_No,0.0024114586655916022,Non-linear association
+MultipleLines_No phone service,0.002264873715257644,Non-linear association
