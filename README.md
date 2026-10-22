@@ -4,6 +4,8 @@ An end-to-end Machine Learning system that predicts customer subscription churn,
 
 Built using the authentic **IBM Telco Customer Churn** dataset from Kaggle.
 
+![Customer Churn Intelligence Live Dashboard](reports/figures/dashboard_demo.png)
+
 ---
 
 ## 📋 Table of Contents

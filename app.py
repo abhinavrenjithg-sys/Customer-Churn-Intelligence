@@ -105,9 +105,19 @@ PREMIUM_CSS = """
     /* Metric KPI Cards */
     .kpi-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 16px;
-        margin-bottom: 24px;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 12px;
+        margin-bottom: 22px;
+    }
+    @media (max-width: 1200px) {
+        .kpi-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width: 768px) {
+        .kpi-grid {
+            grid-template-columns: 1fr;
+        }
     }
     .kpi-card {
         background: #0F172A;
@@ -660,7 +670,8 @@ elif menu_selection == "⚡ Subscriber Churn Prediction":
             "MonthlyCharges": 55.40, "TotalCharges": 775.60
         })
 
-    with st.form("churn_prediction_form"):
+    # Interactive Input Cards (Real-Time Reactive Scoring)
+    with st.container():
         col1, col2, col3 = st.columns(3)
 
         with col1:
@@ -703,9 +714,8 @@ elif menu_selection == "⚡ Subscriber Churn Prediction":
             help="Probabilities at or above this threshold trigger a positive Churn prediction."
         )
 
-        submitted = st.form_submit_button("⚡ Predict Churn Probability", use_container_width=True)
-
-    if submitted:
+    # Always compute prediction on active input state for real-time live feedback
+    if True:
         input_data = {
             "gender": gender, "SeniorCitizen": senior, "Partner": partner, "Dependents": dependents,
             "tenure": tenure, "PhoneService": phone_service, "MultipleLines": multiple_lines,
