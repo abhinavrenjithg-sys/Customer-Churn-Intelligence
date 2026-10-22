@@ -299,12 +299,18 @@ For any individual customer, `src.explain` calculates the exact probability shif
 
 ## 🖥️ Interactive Streamlit Web Dashboard
 
-![Customer Churn Intelligence Dashboard Demo](reports/figures/dashboard_demo.png)
+The web dashboard is fully interactive, featuring real-time churn prediction, cohort analytics, and automated retention recommendations.
 
-Launch the web application with:
+### Executive Overview View
+![Customer Churn Intelligence Executive Overview](reports/figures/dashboard_demo.png)
+
+### Real-Time Subscriber Risk Prediction & TreeSHAP Drivers
+![Subscriber Churn Prediction Simulation](reports/figures/prediction_demo.png)
+
+Launch the web application locally with:
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ### Dashboard Pages
