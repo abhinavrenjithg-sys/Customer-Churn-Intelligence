@@ -299,6 +299,8 @@ For any individual customer, `src.explain` calculates the exact probability shif
 
 ## 🖥️ Interactive Streamlit Web Dashboard
 
+![Customer Churn Intelligence Dashboard Demo](reports/figures/dashboard_demo.png)
+
 Launch the web application with:
 
 ```bash
